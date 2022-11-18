@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: pink;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.wrapper h1{
+    padding-left: 10px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    border-left: 2px;
+}
+
+.menu ul a{
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    color: brown;
+    border-left:1px solid white;
+    
+}
+span{
+    color:brown;
+}
+.image{
+    background: url(image/pexels-photo-1209843.jpeg) no-repeat scroll center /cover;
+    height: 400px;
+}
+.print{
+    background-color:pink;
+    height: 435px;
+    
+}
+.para {
+    display: flex;
+  
+    
+
+}
+.para p{
+    border:2px solid brown;
+    margin:2px 30px;
+    text-align: justify;
+    border-radius: 5px;
+    padding: 12px;
+    background:rgb(255, 0, 132);
+}
+.container{
+    align-items: center;
+    background-color: pink;
+    padding-top: 0px;
+    justify-content: space-between;
+    display: flex;
+     
+   
+}
+.sachin{
+    border-right: 2px solid white;
+    padding:0px 20px;
+}
+.sachin li{
+    list-style: none;
+    background-color: white;
+    margin: 10px 20px;
+    padding:15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.vinod p{
+    padding:15px 15px;}
+.coding{
+    display: flex;
+    padding:20px 50px 200px 50px;
+    background-color: black;
+    height: 200px;
+    border:2px dotted white;
+     /* position: absolute; 
+     top:-200px;*/
+    
+} 
+.coding a{
+    padding:10px 30px;
+    align-items: center;
+    
+}
+.codinga1{
+    padding-left: 30PX;
+    color:white;
+}
+
+.codinga12{
+    
+    padding-top: 30px;
+
+    
+} 
+.codinga12 li{
+    list-style: none;
+    background-color:white;
+    margin: 5px;
+    border-radius: 5px;
+    font-size:20px;
+}
+
+.codinga12 a{
+    list-style: none;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding: 10px,0;
+}
+.codinga12 a:hover{
+    color:blue;
+}
+
+.codinga{
+    padding:0px 40px;
+    text-align: justify;
+}
+.codingb1{
+    color:white;
+    padding-left: 140px;
+}
+.codingb12{
+    border: 2px solid white;
+    padding:10px;
+    margin: 20px;
+    color:white;
+}
+.codingc{
+    padding: 0px 40px;
+    
+
+}
+.codingc1{
+    padding-left: 40px;
+    color: white;
+}
+.codingc12{
+    text-align: justify;
+    border:2px solid white;
+    margin: 20px;
+    padding: 10px;
+    color:white;
+
+}
+
+
+
+
+
